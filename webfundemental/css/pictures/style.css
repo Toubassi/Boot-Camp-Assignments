@@ -1,0 +1,49 @@
+.container {
+  background-color: #bcbbbd;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.firstRow {
+  background-color: rgb(92 195 226);
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  min-width: 90%;
+  min-height: 90%;
+}
+
+.secondRow {
+  background-color: rgb(184 148 158);
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  min-width: 90%;
+  min-height: 90%;
+}
+.thirdRow {
+  background-color: white;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  min-width: 90%;
+  min-height: 90%;
+}
+
+.first {
+  height: 200px;
+  max-height: 100%;
+  max-width: 100%;
+}
