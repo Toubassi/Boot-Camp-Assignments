@@ -1,7 +1,8 @@
 function changeWord(here) {
-  here.innerText = "Logout"
+  if (here.innerText === "Logout") here.innerText = "Login";
+  else here.innerText = "Logout";
 }
 
-function remove(word){
+function remove(word) {
   word.remove();
 }

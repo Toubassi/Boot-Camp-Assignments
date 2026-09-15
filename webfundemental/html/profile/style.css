@@ -1,0 +1,23 @@
+.logo {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.msg {
+  height: 100px;
+  vertical-align: top;
+  margin: 5px;
+}
+
+.paraMsg {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+}
+
+.img {
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+}
