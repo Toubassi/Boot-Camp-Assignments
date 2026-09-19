@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+  </head>
+  <body>
+    <header nav>
+      <div class="">
+        <div class="nav">
+          <h1>DojoWeather</h1>
+          <div class="cities">
+            <p>
+              <a href="#" onclick="alert('Loading weather report...')"
+                >Burbank</a
+              >
+            </p>
+            <p>
+              <a href="#" onclick="alert('Loading weather report...')"
+                >Chicago</a
+              >
+            </p>
+            <p>
+              <a href="#" onclick="alert('Loading weather report...')"
+                >Dallas</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="part1">
+        <h2>San Jose</h2>
+        <div class="tempVal">
+          <p>Show temperature in:</p>
+          <select id="unit">
+            <option value="cel">°C</option>
+            <option value="fah">°F</option>
+          </select>
+        </div>
+      </div>
+      <hr class="line" />
+      <div class="container">
+        <div class="allDays">
+          <div class="today">
+            <h3>Today</h3>
+            <img src="./assets/some_rain.png" alt="rain" class="img" />
+            <p>some rain</p>
+            <div class="numbers">
+              <p class="tempNumsDay">24°</p>
+              <p class="tempNumsNight">18°</p>
+            </div>
+          </div>
+          <div class="today">
+            <h3>Tomorrow</h3>
+            <img src="./assets/some_sun.png" alt="sun" class="img" />
+            <p>some sun</p>
+            <div class="numbers">
+              <p class="tempNumsDay">27°</p>
+              <p class="tempNumsNight">19°</p>
+            </div>
+          </div>
+          <div class="today">
+            <h3>Firday</h3>
+            <img src="./assets/some_clouds.png" alt="clouds" class="img" />
+            <p>some clouds</p>
+            <div class="numbers">
+              <p class="tempNumsDay">21°</p>
+              <p class="tempNumsNight">16°</p>
+            </div>
+          </div>
+          <div class="today">
+            <h3>Saturday</h3>
+            <img src="./assets/some_rain.png" class="img" />
+            <p>some rain</p>
+            <div class="numbers">
+              <p class="tempNumsDay">26°</p>
+              <p class="tempNumsNight">21°</p>
+            </div>
+          </div>
+        </div>
+        <div id="cookieBar">
+          <img src="./assets/cookie.png" alt="cookie" class="img" />
+          <div>
+            <h3>Stop! Cookie time</h3>
+            <p>
+              We use cookies (sadly not the edible ones) to personalize content
+              and ads, to provide social media features and to analyse our
+              traffic. <a href="">Read more...</a>
+            </p>
+          </div>
+          <button id="btn" onclick="remove()">I Accept</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
