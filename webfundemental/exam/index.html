@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="left">
+          <img src="./pics/WebFund/logo.png" alt="logo" class="logo"/>
+          <div class="brand">
+            <h2>Al-AMeer</h2>
+            <h3>we car your <span class="carWord">Car</span></h3>
+          </div>
+        </div>
+        <div class="right">
+          <ul class="list">
+            <li class="carWord">Home</li>
+            <li>Service</li>
+            <li>Gallery</li>
+            <li>Contact Us</li>
+          </ul>
+          <button class="btn">Sign in</button>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="top">
+        <div class="half1">
+          <h3>Best Car services in the town</h3>
+          <button class="btn" id="showMore" onclick="remove(this)">Show more</button>
+        </div>
+        <div class="half2">
+          <img id="mainCar" src="./pics/WebFund/bluecar.png" alt="seat" class="seat"  onclick="change(this)"/>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="ourServices">Our services</h2>
+      <div class="middle">
+        <div class="serviceBoxs">
+          <div class="servContents">
+            <div class="services">
+              <img
+                src="./pics/WebFund/icons/ExteriorWashing.png"
+                alt="ExteriorWashing"
+                class="icons"
+              />
+            </div>
+            <div class="boxTitle">
+              <p>Exterior Washing</p>
+              <button class="btn" id="bookingBtn1" >Book Now</button>
+            </div>
+          </div>
+          <p><span class="booking1">3</span> Appointment(s) Available</p>
+        </div>
+        <div class="serviceBoxs">
+          <div class="servContents">
+            <div class="services">
+              <img
+                src="./pics/WebFund/icons/SeatsWashing.png"
+                alt="ExteriorWashing"
+                class="icons"
+              />
+            </div>
+            <div class="boxTitle">
+              <p>Seats Washing</p>
+              <button class="btn" id="bookingBtn2">Book Now</button>
+            </div>
+          </div>
+          <p><span class="booking2">3</span> Appointment(s) Available</p>
+        </div>
+        <div class="serviceBoxs">
+          <div class="servContents">
+            <div class="services">
+              <img
+                src="./pics/WebFund/icons/OilChanging.png"
+                alt="ExteriorWashing"
+                class="icons"
+              />
+            </div>
+            <div class="boxTitle">
+              <p>Oil Changing</p>
+              <button class="btn" id="bookingBtn3">Book Now</button>
+            </div>
+          </div>
+          <p><span class="booking3">3</span> Appointment(s) Available</p>
+        </div>
+        <div class="serviceBoxs">
+          <div class="servContents">
+            <div class="services">
+              <img
+                src="./pics/WebFund/icons/VacuumCleaning.png"
+                alt="ExteriorWashing"
+                class="icons"
+              />
+            </div>
+            <div class="boxTitle">
+              <p>Vacuum Cleaning</p>
+              <button class="btn" id="bookingBtn4">Book Now</button>
+            </div>
+          </div>
+          <p><span class="booking4">3</span> Appointment(s) Available</p>
+        </div>
+        <div class="serviceBoxs">
+          <div class="servContents">
+            <div class="services">
+              <img
+                src="./pics/WebFund/icons/InteriorWashing.png"
+                alt="ExteriorWashing"
+                class="icons"
+              />
+            </div>
+            <div class="boxTitle">
+              <p>Interior Washing</p>
+              <button class="btn" id="bookingBtn5">Book Now</button>
+            </div>
+          </div>
+          <p><span class="booking5">3</span> Appointment(s) Available</p>
+        </div>
+        <div class="serviceBoxs">
+          <div class="servContents">
+            <div class="services">
+              <img
+                src="./pics/WebFund/icons/BrakeReparing .png"
+                alt="ExteriorWashing"
+                class="icons"
+              />
+            </div>
+            <div class="boxTitle">
+              <p>Brake Repairing</p>
+              <button class="btn" id="bookingBtn6">Book Now</button>
+            </div>
+          </div>
+          <p><span class="booking6">3</span> Appointment(s) Available</p>
+        </div>
+    </section>
+    <section>
+      <h3 class="ourServices">What our clients say</h3>
+      <div class="reviews">
+        <img src="./pics/WebFund/client.png" alt="client" class="clientPic"/>
+        <div>
+        <p id="para">
+          My experience at the car wash was disappointing. The cleaning was
+          superficial, and some spots remained on the car even after th wash.
+          The staff were not friendly and seemed uninterested in providing good
+          services. Additionally the prices were high compared to the quality of
+          service I received. I don't think I'll be coming back or recommending
+          this car wash to others.
+        </p>
+        <div class="revBtn"><button class="btn" id="revBtn" onclick="changePara()">Read more</button>
+        </div>
+      </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div >
+        <div class="left">Axsos Academy</div>
+      </div>
+      <div class="right">
+      <ul class="list">
+        <li><img src="./pics/WebFund/whatsapp.png" alt="whatsapp" class="icon"></li>
+        <li><img src="./pics/WebFund/linkedin.png" alt="linkedin" class="icon"></li>
+        <li><img src="./pics/WebFund/mail.jpg" alt="email" class="icon"></li>
+        <li><img src="./pics/WebFund/instagram.jpeg" alt="insta" class="icon"></li>
+      </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
